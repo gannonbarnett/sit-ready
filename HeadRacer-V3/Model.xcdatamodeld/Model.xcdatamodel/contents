@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17C88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AcccessLevelModel" representedClassName="AcccessLevelModel" syncable="YES" codeGenerationType="class">
+        <attribute name="isAdmin" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isCreator" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isSpectator" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="PartyDataModel" representedClassName="PartyDataModel" syncable="YES" codeGenerationType="class">
+        <attribute name="adminCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creatorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateSaved" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberEntries" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="raceCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spectatorCode" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="access" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AcccessLevelModel" syncable="YES"/>
+        <relationship name="times" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SingleDataModel" syncable="YES"/>
+    </entity>
+    <entity name="SingleDataModel" representedClassName="SingleDataModel" syncable="YES" codeGenerationType="class">
+        <attribute name="finishTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="iD" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SingleDataModel" positionX="-0" positionY="171" width="128" height="88"/>
+        <element name="PartyDataModel" positionX="144" positionY="-72" width="128" height="178"/>
+        <element name="AcccessLevelModel" positionX="288" positionY="144" width="128" height="88"/>
+    </elements>
+</model>

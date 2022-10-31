@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1605E3B91FF589DF00DB74DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605E3B81FF589DF00DB74DE /* AppDelegate.swift */; };
+		1605E3BB1FF589DF00DB74DE /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605E3BA1FF589DF00DB74DE /* MasterViewController.swift */; };
+		1605E3BD1FF589DF00DB74DE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605E3BC1FF589DF00DB74DE /* DetailViewController.swift */; };
+		1605E3C01FF589DF00DB74DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1605E3BE1FF589DF00DB74DE /* Main.storyboard */; };
+		1605E3C21FF589DF00DB74DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1605E3C11FF589DF00DB74DE /* Assets.xcassets */; };
+		1605E3C51FF589DF00DB74DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1605E3C31FF589DF00DB74DE /* LaunchScreen.storyboard */; };
+		1605E3D01FF589E000DB74DE /* HeadRacer_V3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605E3CF1FF589E000DB74DE /* HeadRacer_V3Tests.swift */; };
+		1605E3DB1FF589E000DB74DE /* HeadRacer_V3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605E3DA1FF589E000DB74DE /* HeadRacer_V3UITests.swift */; };
+		1605E3EB1FF5B3E900DB74DE /* AddPartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605E3EA1FF5B3E900DB74DE /* AddPartyViewController.swift */; };
+		1605E3ED1FF5B41E00DB74DE /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605E3EC1FF5B41E00DB74DE /* DataTableViewController.swift */; };
+		1605E3EF1FF5B42E00DB74DE /* EditDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605E3EE1FF5B42E00DB74DE /* EditDataTableViewController.swift */; };
+		1605E3F11FF5B44900DB74DE /* EditDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605E3F01FF5B44900DB74DE /* EditDataViewController.swift */; };
+		16141701201973EA00D9D0ED /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16141700201973EA00D9D0ED /* Reachability.swift */; };
+		167021211FF5B716002C20EA /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167021201FF5B716002C20EA /* DataTableViewCell.swift */; };
+		167021231FF5B720002C20EA /* EditDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167021221FF5B720002C20EA /* EditDataTableViewCell.swift */; };
+		167021251FF5B97A002C20EA /* PartyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167021241FF5B97A002C20EA /* PartyData.swift */; };
+		167021271FF5B9EE002C20EA /* SingleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167021261FF5B9EE002C20EA /* SingleData.swift */; };
+		167021291FF5BA29002C20EA /* extensions_globalfunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167021281FF5BA29002C20EA /* extensions_globalfunc.swift */; };
+		167793D61FFD941100663253 /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167793D51FFD941100663253 /* MasterTableViewCell.swift */; };
+		168E39A62006635A005A3077 /* DashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168E39A52006635A005A3077 /* DashboardCell.swift */; };
+		168E39AC2006A44F005A3077 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 168E39AB2006A44F005A3077 /* GoogleService-Info.plist */; };
+		168E39AE20070953005A3077 /* UpgradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168E39AD20070953005A3077 /* UpgradeViewController.swift */; };
+		168E39B0200853B6005A3077 /* AdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168E39AF200853B6005A3077 /* AdCell.swift */; };
+		168E39B220091721005A3077 /* bronzetake1.png in Resources */ = {isa = PBXBuildFile; fileRef = 168E39B120091721005A3077 /* bronzetake1.png */; };
+		168E39B520091869005A3077 /* goldtake1.png in Resources */ = {isa = PBXBuildFile; fileRef = 168E39B320091869005A3077 /* goldtake1.png */; };
+		168E39B620091869005A3077 /* silvertake1.png in Resources */ = {isa = PBXBuildFile; fileRef = 168E39B420091869005A3077 /* silvertake1.png */; };
+		16AEA85E1FFEBB3500162B52 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AEA85D1FFEBB3500162B52 /* HelpViewController.swift */; };
+		16AEA8A5200506AB00162B52 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AEA8A4200506AB00162B52 /* StoreKit.framework */; };
+		16AEA8A72005362D00162B52 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AEA8A62005362D00162B52 /* InfoCell.swift */; };
+		16AEA8A92005488B00162B52 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AEA8A82005488B00162B52 /* SettingsTableViewController.swift */; };
+		7A78C83B13CDC263701BA898 /* Pods_HeadRacer_V3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120E5F8B0F3BCC3E8E27ED25 /* Pods_HeadRacer_V3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1605E3CC1FF589E000DB74DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1605E3AD1FF589DF00DB74DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1605E3B41FF589DF00DB74DE;
+			remoteInfo = "HeadRacer-V3";
+		};
+		1605E3D71FF589E000DB74DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1605E3AD1FF589DF00DB74DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1605E3B41FF589DF00DB74DE;
+			remoteInfo = "HeadRacer-V3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		120E5F8B0F3BCC3E8E27ED25 /* Pods_HeadRacer_V3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeadRacer_V3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1605E3B51FF589DF00DB74DE /* HeadRacer-V3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeadRacer-V3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1605E3B81FF589DF00DB74DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1605E3BA1FF589DF00DB74DE /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		1605E3BC1FF589DF00DB74DE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1605E3BF1FF589DF00DB74DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1605E3C11FF589DF00DB74DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1605E3C41FF589DF00DB74DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1605E3C61FF589DF00DB74DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1605E3CB1FF589E000DB74DE /* HeadRacer-V3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeadRacer-V3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1605E3CF1FF589E000DB74DE /* HeadRacer_V3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadRacer_V3Tests.swift; sourceTree = "<group>"; };
+		1605E3D11FF589E000DB74DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1605E3D61FF589E000DB74DE /* HeadRacer-V3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeadRacer-V3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1605E3DA1FF589E000DB74DE /* HeadRacer_V3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadRacer_V3UITests.swift; sourceTree = "<group>"; };
+		1605E3DC1FF589E000DB74DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1605E3EA1FF5B3E900DB74DE /* AddPartyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPartyViewController.swift; sourceTree = "<group>"; };
+		1605E3EC1FF5B41E00DB74DE /* DataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
+		1605E3EE1FF5B42E00DB74DE /* EditDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDataTableViewController.swift; sourceTree = "<group>"; };
+		1605E3F01FF5B44900DB74DE /* EditDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDataViewController.swift; sourceTree = "<group>"; };
+		16141700201973EA00D9D0ED /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		167021201FF5B716002C20EA /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		167021221FF5B720002C20EA /* EditDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDataTableViewCell.swift; sourceTree = "<group>"; };
+		167021241FF5B97A002C20EA /* PartyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyData.swift; sourceTree = "<group>"; };
+		167021261FF5B9EE002C20EA /* SingleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleData.swift; sourceTree = "<group>"; };
+		167021281FF5BA29002C20EA /* extensions_globalfunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions_globalfunc.swift; sourceTree = "<group>"; };
+		167793D51FFD941100663253 /* MasterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewCell.swift; sourceTree = "<group>"; };
+		168E39A52006635A005A3077 /* DashboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
+		168E39AB2006A44F005A3077 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		168E39AD20070953005A3077 /* UpgradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeViewController.swift; sourceTree = "<group>"; };
+		168E39AF200853B6005A3077 /* AdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCell.swift; sourceTree = "<group>"; };
+		168E39B120091721005A3077 /* bronzetake1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bronzetake1.png; path = ../../../medalImages/bronzetake1.png; sourceTree = "<group>"; };
+		168E39B320091869005A3077 /* goldtake1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goldtake1.png; path = ../../../medalImages/goldtake1.png; sourceTree = "<group>"; };
+		168E39B420091869005A3077 /* silvertake1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = silvertake1.png; path = ../../../medalImages/silvertake1.png; sourceTree = "<group>"; };
+		16AEA85D1FFEBB3500162B52 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		16AEA8A4200506AB00162B52 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		16AEA8A62005362D00162B52 /* InfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		16AEA8A82005488B00162B52 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		67C47EB7EF1CDF23765DF408 /* Pods-HeadRacer-V3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadRacer-V3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeadRacer-V3/Pods-HeadRacer-V3.debug.xcconfig"; sourceTree = "<group>"; };
+		9946970E95B8A3DE9F9ACCFC /* Pods-HeadRacer-V3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadRacer-V3.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeadRacer-V3/Pods-HeadRacer-V3.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1605E3B21FF589DF00DB74DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AEA8A5200506AB00162B52 /* StoreKit.framework in Frameworks */,
+				7A78C83B13CDC263701BA898 /* Pods_HeadRacer_V3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1605E3C81FF589E000DB74DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1605E3D31FF589E000DB74DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1605E3AC1FF589DF00DB74DE = {
+			isa = PBXGroup;
+			children = (
+				168E39AB2006A44F005A3077 /* GoogleService-Info.plist */,
+				1605E3B71FF589DF00DB74DE /* HeadRacer-V3 */,
+				1605E3CE1FF589E000DB74DE /* HeadRacer-V3Tests */,
+				1605E3D91FF589E000DB74DE /* HeadRacer-V3UITests */,
+				1605E3B61FF589DF00DB74DE /* Products */,
+				F72CE9DA545BADECBCE58BAD /* Pods */,
+				B4BFA128A393AF367B7A2D38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1605E3B61FF589DF00DB74DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1605E3B51FF589DF00DB74DE /* HeadRacer-V3.app */,
+				1605E3CB1FF589E000DB74DE /* HeadRacer-V3Tests.xctest */,
+				1605E3D61FF589E000DB74DE /* HeadRacer-V3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1605E3B71FF589DF00DB74DE /* HeadRacer-V3 */ = {
+			isa = PBXGroup;
+			children = (
+				1605E3B81FF589DF00DB74DE /* AppDelegate.swift */,
+				1616D52B20E292AE00CF18CE /* view controllers */,
+				1616D52C20E292B800CF18CE /* custom cells */,
+				1605E3BE1FF589DF00DB74DE /* Main.storyboard */,
+				167021241FF5B97A002C20EA /* PartyData.swift */,
+				167021261FF5B9EE002C20EA /* SingleData.swift */,
+				167021281FF5BA29002C20EA /* extensions_globalfunc.swift */,
+				1605E3C11FF589DF00DB74DE /* Assets.xcassets */,
+				168E39B320091869005A3077 /* goldtake1.png */,
+				168E39B420091869005A3077 /* silvertake1.png */,
+				168E39B120091721005A3077 /* bronzetake1.png */,
+				1605E3C31FF589DF00DB74DE /* LaunchScreen.storyboard */,
+				1605E3C61FF589DF00DB74DE /* Info.plist */,
+				16141700201973EA00D9D0ED /* Reachability.swift */,
+			);
+			path = "HeadRacer-V3";
+			sourceTree = "<group>";
+		};
+		1605E3CE1FF589E000DB74DE /* HeadRacer-V3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1605E3CF1FF589E000DB74DE /* HeadRacer_V3Tests.swift */,
+				1605E3D11FF589E000DB74DE /* Info.plist */,
+			);
+			path = "HeadRacer-V3Tests";
+			sourceTree = "<group>";
+		};
+		1605E3D91FF589E000DB74DE /* HeadRacer-V3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1605E3DA1FF589E000DB74DE /* HeadRacer_V3UITests.swift */,
+				1605E3DC1FF589E000DB74DE /* Info.plist */,
+			);
+			path = "HeadRacer-V3UITests";
+			sourceTree = "<group>";
+		};
+		1616D52B20E292AE00CF18CE /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1605E3BA1FF589DF00DB74DE /* MasterViewController.swift */,
+				168E39AD20070953005A3077 /* UpgradeViewController.swift */,
+				1605E3EA1FF5B3E900DB74DE /* AddPartyViewController.swift */,
+				1605E3BC1FF589DF00DB74DE /* DetailViewController.swift */,
+				16AEA8A82005488B00162B52 /* SettingsTableViewController.swift */,
+				1605E3EC1FF5B41E00DB74DE /* DataTableViewController.swift */,
+				16AEA85D1FFEBB3500162B52 /* HelpViewController.swift */,
+				1605E3F01FF5B44900DB74DE /* EditDataViewController.swift */,
+				1605E3EE1FF5B42E00DB74DE /* EditDataTableViewController.swift */,
+			);
+			path = "view controllers";
+			sourceTree = "<group>";
+		};
+		1616D52C20E292B800CF18CE /* custom cells */ = {
+			isa = PBXGroup;
+			children = (
+				168E39A52006635A005A3077 /* DashboardCell.swift */,
+				167793D51FFD941100663253 /* MasterTableViewCell.swift */,
+				16AEA8A62005362D00162B52 /* InfoCell.swift */,
+				167021201FF5B716002C20EA /* DataTableViewCell.swift */,
+				168E39AF200853B6005A3077 /* AdCell.swift */,
+				167021221FF5B720002C20EA /* EditDataTableViewCell.swift */,
+			);
+			path = "custom cells";
+			sourceTree = "<group>";
+		};
+		B4BFA128A393AF367B7A2D38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16AEA8A4200506AB00162B52 /* StoreKit.framework */,
+				120E5F8B0F3BCC3E8E27ED25 /* Pods_HeadRacer_V3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F72CE9DA545BADECBCE58BAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67C47EB7EF1CDF23765DF408 /* Pods-HeadRacer-V3.debug.xcconfig */,
+				9946970E95B8A3DE9F9ACCFC /* Pods-HeadRacer-V3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1605E3B41FF589DF00DB74DE /* HeadRacer-V3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1605E3DF1FF589E000DB74DE /* Build configuration list for PBXNativeTarget "HeadRacer-V3" */;
+			buildPhases = (
+				C5DB463C43A98BA86337E309 /* [CP] Check Pods Manifest.lock */,
+				1605E3B11FF589DF00DB74DE /* Sources */,
+				1605E3B21FF589DF00DB74DE /* Frameworks */,
+				1605E3B31FF589DF00DB74DE /* Resources */,
+				E4E6DDF3E37D0355901993AA /* [CP] Embed Pods Frameworks */,
+				A21C960DD93A25EA53866F81 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeadRacer-V3";
+			productName = "HeadRacer-V3";
+			productReference = 1605E3B51FF589DF00DB74DE /* HeadRacer-V3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1605E3CA1FF589E000DB74DE /* HeadRacer-V3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1605E3E21FF589E000DB74DE /* Build configuration list for PBXNativeTarget "HeadRacer-V3Tests" */;
+			buildPhases = (
+				1605E3C71FF589E000DB74DE /* Sources */,
+				1605E3C81FF589E000DB74DE /* Frameworks */,
+				1605E3C91FF589E000DB74DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1605E3CD1FF589E000DB74DE /* PBXTargetDependency */,
+			);
+			name = "HeadRacer-V3Tests";
+			productName = "HeadRacer-V3Tests";
+			productReference = 1605E3CB1FF589E000DB74DE /* HeadRacer-V3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1605E3D51FF589E000DB74DE /* HeadRacer-V3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1605E3E51FF589E000DB74DE /* Build configuration list for PBXNativeTarget "HeadRacer-V3UITests" */;
+			buildPhases = (
+				1605E3D21FF589E000DB74DE /* Sources */,
+				1605E3D31FF589E000DB74DE /* Frameworks */,
+				1605E3D41FF589E000DB74DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1605E3D81FF589E000DB74DE /* PBXTargetDependency */,
+			);
+			name = "HeadRacer-V3UITests";
+			productName = "HeadRacer-V3UITests";
+			productReference = 1605E3D61FF589E000DB74DE /* HeadRacer-V3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1605E3AD1FF589DF00DB74DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Barnett;
+				TargetAttributes = {
+					1605E3B41FF589DF00DB74DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					1605E3CA1FF589E000DB74DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1605E3B41FF589DF00DB74DE;
+					};
+					1605E3D51FF589E000DB74DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1605E3B41FF589DF00DB74DE;
+					};
+				};
+			};
+			buildConfigurationList = 1605E3B01FF589DF00DB74DE /* Build configuration list for PBXProject "HeadRacer-V3" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1605E3AC1FF589DF00DB74DE;
+			productRefGroup = 1605E3B61FF589DF00DB74DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1605E3B41FF589DF00DB74DE /* HeadRacer-V3 */,
+				1605E3CA1FF589E000DB74DE /* HeadRacer-V3Tests */,
+				1605E3D51FF589E000DB74DE /* HeadRacer-V3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1605E3B31FF589DF00DB74DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168E39B620091869005A3077 /* silvertake1.png in Resources */,
+				1605E3C51FF589DF00DB74DE /* LaunchScreen.storyboard in Resources */,
+				1605E3C21FF589DF00DB74DE /* Assets.xcassets in Resources */,
+				168E39B220091721005A3077 /* bronzetake1.png in Resources */,
+				168E39AC2006A44F005A3077 /* GoogleService-Info.plist in Resources */,
+				168E39B520091869005A3077 /* goldtake1.png in Resources */,
+				1605E3C01FF589DF00DB74DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1605E3C91FF589E000DB74DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1605E3D41FF589E000DB74DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A21C960DD93A25EA53866F81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeadRacer-V3/Pods-HeadRacer-V3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5DB463C43A98BA86337E309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeadRacer-V3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E6DDF3E37D0355901993AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HeadRacer-V3/Pods-HeadRacer-V3-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeadRacer-V3/Pods-HeadRacer-V3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1605E3B11FF589DF00DB74DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167021251FF5B97A002C20EA /* PartyData.swift in Sources */,
+				168E39A62006635A005A3077 /* DashboardCell.swift in Sources */,
+				1605E3ED1FF5B41E00DB74DE /* DataTableViewController.swift in Sources */,
+				168E39B0200853B6005A3077 /* AdCell.swift in Sources */,
+				1605E3F11FF5B44900DB74DE /* EditDataViewController.swift in Sources */,
+				167793D61FFD941100663253 /* MasterTableViewCell.swift in Sources */,
+				167021271FF5B9EE002C20EA /* SingleData.swift in Sources */,
+				1605E3EF1FF5B42E00DB74DE /* EditDataTableViewController.swift in Sources */,
+				1605E3BD1FF589DF00DB74DE /* DetailViewController.swift in Sources */,
+				16AEA85E1FFEBB3500162B52 /* HelpViewController.swift in Sources */,
+				1605E3BB1FF589DF00DB74DE /* MasterViewController.swift in Sources */,
+				1605E3B91FF589DF00DB74DE /* AppDelegate.swift in Sources */,
+				167021231FF5B720002C20EA /* EditDataTableViewCell.swift in Sources */,
+				1605E3EB1FF5B3E900DB74DE /* AddPartyViewController.swift in Sources */,
+				168E39AE20070953005A3077 /* UpgradeViewController.swift in Sources */,
+				16AEA8A92005488B00162B52 /* SettingsTableViewController.swift in Sources */,
+				167021211FF5B716002C20EA /* DataTableViewCell.swift in Sources */,
+				167021291FF5BA29002C20EA /* extensions_globalfunc.swift in Sources */,
+				16141701201973EA00D9D0ED /* Reachability.swift in Sources */,
+				16AEA8A72005362D00162B52 /* InfoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1605E3C71FF589E000DB74DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1605E3D01FF589E000DB74DE /* HeadRacer_V3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1605E3D21FF589E000DB74DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1605E3DB1FF589E000DB74DE /* HeadRacer_V3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1605E3CD1FF589E000DB74DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1605E3B41FF589DF00DB74DE /* HeadRacer-V3 */;
+			targetProxy = 1605E3CC1FF589E000DB74DE /* PBXContainerItemProxy */;
+		};
+		1605E3D81FF589E000DB74DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1605E3B41FF589DF00DB74DE /* HeadRacer-V3 */;
+			targetProxy = 1605E3D71FF589E000DB74DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1605E3BE1FF589DF00DB74DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1605E3BF1FF589DF00DB74DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1605E3C31FF589DF00DB74DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1605E3C41FF589DF00DB74DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1605E3DD1FF589E000DB74DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1605E3DE1FF589E000DB74DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1605E3E01FF589E000DB74DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C47EB7EF1CDF23765DF408 /* Pods-HeadRacer-V3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L78B26PEZ6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "HeadRacer-V3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Barnett.SitReady;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1605E3E11FF589E000DB74DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9946970E95B8A3DE9F9ACCFC /* Pods-HeadRacer-V3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L78B26PEZ6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "HeadRacer-V3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Barnett.SitReady;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1605E3E31FF589E000DB74DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L78B26PEZ6;
+				INFOPLIST_FILE = "HeadRacer-V3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Barnett.HeadRacer-V3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadRacer-V3.app/HeadRacer-V3";
+			};
+			name = Debug;
+		};
+		1605E3E41FF589E000DB74DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L78B26PEZ6;
+				INFOPLIST_FILE = "HeadRacer-V3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Barnett.HeadRacer-V3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadRacer-V3.app/HeadRacer-V3";
+			};
+			name = Release;
+		};
+		1605E3E61FF589E000DB74DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L78B26PEZ6;
+				INFOPLIST_FILE = "HeadRacer-V3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Barnett.HeadRacer-V3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HeadRacer-V3";
+			};
+			name = Debug;
+		};
+		1605E3E71FF589E000DB74DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L78B26PEZ6;
+				INFOPLIST_FILE = "HeadRacer-V3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Barnett.HeadRacer-V3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HeadRacer-V3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1605E3B01FF589DF00DB74DE /* Build configuration list for PBXProject "HeadRacer-V3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1605E3DD1FF589E000DB74DE /* Debug */,
+				1605E3DE1FF589E000DB74DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1605E3DF1FF589E000DB74DE /* Build configuration list for PBXNativeTarget "HeadRacer-V3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1605E3E01FF589E000DB74DE /* Debug */,
+				1605E3E11FF589E000DB74DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1605E3E21FF589E000DB74DE /* Build configuration list for PBXNativeTarget "HeadRacer-V3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1605E3E31FF589E000DB74DE /* Debug */,
+				1605E3E41FF589E000DB74DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1605E3E51FF589E000DB74DE /* Build configuration list for PBXNativeTarget "HeadRacer-V3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1605E3E61FF589E000DB74DE /* Debug */,
+				1605E3E71FF589E000DB74DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1605E3AD1FF589DF00DB74DE /* Project object */;
+}
